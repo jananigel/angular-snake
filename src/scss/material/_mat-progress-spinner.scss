@@ -1,0 +1,13 @@
+mat-spinner .mdc-circular-progress__indeterminate-container .mdc-circular-progress__spinner-layer .mdc-circular-progress__circle-clipper circle {
+  stroke: var(--color-brand-primary);
+}
+
+button mat-spinner .mdc-circular-progress__indeterminate-container .mdc-circular-progress__spinner-layer .mdc-circular-progress__circle-clipper circle {
+  stroke: var(--color-dark-bg-text);
+}
+
+.content .mat-progress-spinner svg,
+.mat-spinner svg {
+  // left: 50%;
+  // transform: translateX(-50%);
+}

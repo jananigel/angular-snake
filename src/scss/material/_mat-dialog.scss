@@ -1,0 +1,74 @@
+/* stylelint-disable selector-max-compound-selectors */
+mat-dialog-container {
+  &.mat-mdc-dialog-container {
+    .mat-mdc-dialog-inner-container {
+      .mat-mdc-dialog-surface mdc-dialog__surface {
+        padding: 0;
+        color: #000000de;
+        background: #fff;
+        box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024, 0 9px 46px 8px #0000001f;
+      }
+    }
+  }
+}
+
+.cdk-overlay-container {
+  .cdk-global-overlay-wrapper {
+    .cdk-overlay-pane {
+      &.none-animation {
+        .mat-dialog-container {
+          opacity: 1 !important;
+          transform: initial !important;
+          transition: none !important;
+          animation-duration: 0s !important;
+        }
+      }
+
+      .cdk-overlay-backdrop {
+        &.transparent {
+          opacity: 0;
+        }
+      }
+
+      &.sm {
+        width: 25%;
+      }
+
+      &.lg {
+        width: 70%;
+      }
+
+      &.md {
+        width: 50%;
+      }
+
+      &.xl {
+        width: 90%;
+      }
+
+      &.max-w-none {
+        max-width: none;
+      }
+
+      &.minimized {
+        transition: width .1s linear, height .1s linear;
+
+        .mat-mdc-dialog-surface {
+          overflow: hidden;
+        }
+      }
+
+      &.backdrop::after {
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(0 0 0 / .32);
+        content: '';
+        backdrop-filter: blur(4px);
+      }
+    }
+  }
+}
