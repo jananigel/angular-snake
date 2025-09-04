@@ -1,268 +1,272 @@
 @font-face {
-  font-style: normal;
-  font-weight: normal;
-  font-family: icomoon;
-  src: url('./assets/fonts/icomoon/icomoon.eot');
-  src: url('./assets/fonts/icomoon/icomoon.eot') format('embedded-opentype'),
-    url('./assets/fonts/icomoon/icomoon.ttf') format('truetype'),
-    url('./assets/fonts/icomoon/icomoon.woff') format('woff'),
-    url('./assets/fonts/icomoon/icomoon.svg') format('svg');
-  font-display: block;
+	font-style: normal;
+	font-weight: normal;
+	font-family: icomoon;
+	src: url('./assets/fonts/icomoon/icomoon.eot');
+
+	/* stylelint-disable-next-line declaration-colon-newline-after */
+	src: url('./assets/fonts/icomoon/icomoon.eot') format('embedded-opentype'),
+		url('./assets/fonts/icomoon/icomoon.ttf') format('truetype'),
+		url('./assets/fonts/icomoon/icomoon.woff') format('woff'),
+		url('./assets/fonts/icomoon/icomoon.svg') format('svg');
+	font-display: block;
 }
 
 [class^='icon-'],
 [class*=' icon-'] {
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
 
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: icomoon !important;
-  line-height: 1;
-  text-transform: none;
-  speak: never;
+	/* use !important to prevent issues with browser extensions that change fonts */
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	/* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+	font-family: icomoon !important;
+	line-height: 1;
+	text-transform: none;
+	speak: never;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .icon-cross::before {
-  content: '\e905';
+	content: '\e905';
 }
 
 .icon-tick::before {
-  content: '\e906';
+	content: '\e906';
 }
 
 .icon-plus::before {
-  content: '\e907';
+	content: '\e907';
 }
 
 .icon-minus::before {
-  content: '\e908';
+	content: '\e908';
 }
 
 .icon-chevron-right::before {
-  content: '\e90e';
+	content: '\e90e';
 }
 
 .icon-chevron-left::before {
-  content: '\e919';
+	content: '\e919';
 }
 
 .icon-question::before {
-  content: '\e933';
+	content: '\e933';
 }
 
 .icon-circle-question::before {
-  content: '\e934';
+	content: '\e934';
 }
 
 .icon-compass::before {
-  content: '\e931';
+	content: '\e931';
 }
 
 .icon-user::before {
-  content: '\e90c';
+	content: '\e90c';
 }
 
-.icon-account-setting:before {
-  content: "\e92b";
+.icon-account-setting::before {
+	content: '\e92b';
 }
 
 .icon-table-columns::before {
-  content: '\e925';
+	content: '\e925';
 }
 
 .icon-trash-can::before {
-  content: '\e917';
+	content: '\e917';
 }
 
 .icon-download::before {
-  content: '\e918';
+	content: '\e918';
 }
 
 .icon-upload::before {
-  content: '\e916';
+	content: '\e916';
 }
 
 .icon-triangle-warning::before {
-  content: '\e90a';
+	content: '\e90a';
 }
 
 .icon-circle-warning::before {
-  content: '\e910';
+	content: '\e910';
 }
 
 .icon-circle-check::before {
-  content: '\e915';
+	content: '\e915';
 }
 
 .icon-circle-cross::before {
-  content: '\e914';
+	content: '\e914';
 }
 
 .icon-meatballs::before {
-  content: '\e913';
+	content: '\e913';
 }
 
 .icon-list::before {
-  content: '\e911';
+	content: '\e911';
 }
 
 .icon-editor::before {
-  content: '\e912';
+	content: '\e912';
 }
 
 .icon-support::before {
-  content: '\e90f';
+	content: '\e90f';
 }
 
 .icon-bell::before {
-  content: '\e90b';
+	content: '\e90b';
 }
 
 .icon-circle-user::before {
-  content: '\e92e';
+	content: '\e92e';
 }
 
 .icon-language::before {
-  content: '\e90d';
+	content: '\e90d';
 }
 
 .icon-logout::before {
-  content: '\e909';
+	content: '\e909';
 }
 
 .icon-menu-burger::before {
-  content: '\e904';
+	content: '\e904';
 }
 
 .icon-checkbox-no-checked::before {
-  content: '\e902';
+	content: '\e902';
 }
 
 .icon-checkbox-checked::before {
-  content: '\e903';
+	content: '\e903';
 }
 
 .icon-eye-close::before {
-  content: '\e900';
+	content: '\e900';
 }
 
 .icon-eye-open::before {
-  content: '\e901';
+	content: '\e901';
 }
 
 .icon-home::before {
-  content: '\e91a';
+	content: '\e91a';
 }
 
 .icon-file-text::before {
-  content: '\e926';
+	content: '\e926';
 }
 
 .icon-file-picture::before {
-  content: '\e927';
+	content: '\e927';
 }
 
 .icon-file-video::before {
-  content: '\e92a';
+	content: '\e92a';
 }
 
 .icon-copy::before {
-  content: '\e92c';
+	content: '\e92c';
 }
 
 .icon-folder::before {
-  content: '\e92f';
+	content: '\e92f';
 }
 
 .icon-folder-open::before {
-  content: '\e930';
+	content: '\e930';
 }
 
 .icon-refresh::before {
-  content: '\e984';
+	content: '\e984';
 }
 
 .icon-search::before {
-  content: '\e986';
+	content: '\e986';
 }
 
 .icon-file-pdf::before {
-  content: '\eadf';
+	content: '\eadf';
 }
 
 .icon-droplet::before {
-  content: '\e920';
+	content: '\e920';
 }
 
 .icon-paste::before {
-  content: '\e92d';
+	content: '\e92d';
 }
 
 .icon-printer::before {
-  content: '\e954';
+	content: '\e954';
 }
 
 .icon-drawer::before {
-  content: '\e95c';
+	content: '\e95c';
 }
 
 .icon-floppy-disk::before {
-  content: '\e962';
+	content: '\e962';
 }
 
 .icon-database::before {
-  content: '\e964';
+	content: '\e964';
 }
 
 .icon-bubbles::before {
-  content: '\e96d';
+	content: '\e96d';
 }
 
 .icon-users::before {
-  content: '\e972';
+	content: '\e972';
 }
 
 .icon-wrench::before {
-  content: '\e991';
+	content: '\e991';
 }
 
 .icon-magic-wand::before {
-  content: '\e997';
+	content: '\e997';
 }
 
 .icon-stats-dots::before {
-  content: '\e99b';
+	content: '\e99b';
 }
 
 .icon-clipboard::before {
-  content: '\e9b8';
+	content: '\e9b8';
 }
 
 .icon-enter::before {
-  content: '\ea13';
+	content: '\ea13';
 }
 
 .icon-exit::before {
-  content: '\ea14';
+	content: '\ea14';
 }
 
 .icon-arrow-up::before {
-  content: '\ea3a';
+	content: '\ea3a';
 }
 
 .icon-arrow-right::before {
-  content: '\ea3c';
+	content: '\ea3c';
 }
 
 .icon-arrow-down::before {
-  content: '\ea3e';
+	content: '\ea3e';
 }
 
 .icon-arrow-left::before {
-  content: '\ea40';
+	content: '\ea40';
 }

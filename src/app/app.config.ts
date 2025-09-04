@@ -1,3 +1,4 @@
+import { provideHttpClient, withInterceptors } from '@angular/common/http';
 import { ApplicationConfig, ErrorHandler } from '@angular/core';
 import {
 	PreloadAllModules,
@@ -6,11 +7,10 @@ import {
 	withPreloading,
 	withViewTransitions,
 } from '@angular/router';
-import { provideHttpClient, withInterceptors } from '@angular/common/http';
+import { GlobalErrorHandler } from '@core-services';
+import { AuthInterceptor, EndpointInterceptor, ErrorHandlingInterceptor } from '@interceptors';
 
 import { routes } from './app.routes';
-import { AuthInterceptor, EndpointInterceptor, ErrorHandlingInterceptor } from '@interceptors';
-import { GlobalErrorHandler } from '@core-services';
 
 export const appConfig: ApplicationConfig = {
 	providers: [

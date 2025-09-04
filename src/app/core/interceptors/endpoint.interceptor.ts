@@ -1,7 +1,7 @@
 import { HttpInterceptorFn } from '@angular/common/http';
 
 const endPointHandler = (url: string): string => {
-
+	console.log('Request Url: ', url);
 	return '/api';
 };
 

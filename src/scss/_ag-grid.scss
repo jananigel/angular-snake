@@ -1,127 +1,128 @@
 /* Custom theme */
 .ag-theme-custom {
-  --ag-header-background-color: var(--color-brand-primary);
-  --ag-header-foreground-color: var(--color-white);
-  --ag-header-cell-hover-background-color: var(--color-brand-primary-300);
-  --ag-background-color: var(--color-white);
-  --ag-odd-row-background-color: rgb(247 247 247);
-  --ag-header-text-color: var(--color-white);
+	--ag-header-background-color: var(--color-brand-primary);
+	--ag-header-foreground-color: var(--color-white);
+	--ag-header-cell-hover-background-color: var(--color-brand-primary-300);
+	--ag-background-color: var(--color-white);
+	--ag-odd-row-background-color: rgb(247 247 247);
+	--ag-header-text-color: var(--color-white);
 
-  /* Others */
-  --ag-font-size: 14px;
-  --ag-font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif;
-  --ag-border-color: #ddd;
-  --ag-secondary-border-color: #eee;
-  --ag-row-border-color: #eee;
-  --ag-row-hover-color: var(--color-brand-primary-100);
+	/* Others */
+	--ag-font-size: 14px;
+	--ag-font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif;
+	--ag-border-color: #ddd;
+	--ag-secondary-border-color: #eee;
+	--ag-row-border-color: #eee;
+	--ag-row-hover-color: var(--color-brand-primary-100);
 
-  /* Row height */
-  --ag-row-height: 40px;
-  --ag-header-height: 40px;
+	/* Row height */
+	--ag-row-height: 40px;
+	--ag-header-height: 40px;
 
-  /* Cell horizontal padding */
-  --ag-cell-horizontal-padding: 12px;
+	/* Cell horizontal padding */
+	--ag-cell-horizontal-padding: 12px;
 
-  /* Menu styles */
-  --ag-menu-background-color: var(--color-white);
-  --ag-menu-option-padding: 8px 12px;
-  --ag-menu-min-width: 200px;
-  --ag-selected-tab-color: var(--color-brand-secondary-300);
-  --ag-range-selection-border-color: var(--color-brand-secondary-300);
+	/* Menu styles */
+	--ag-menu-background-color: var(--color-white);
+	--ag-menu-option-padding: 8px 12px;
+	--ag-menu-min-width: 200px;
+	--ag-selected-tab-color: var(--color-brand-secondary-300);
+	--ag-range-selection-border-color: var(--color-brand-secondary-300);
 
-  /* icon styles */
-  --ag-icon-button-active-color: var(--color-white);
-  --ag-icon-button-active-background-color: var(--color-brand-secondary);
-  --ag-accent-color: var(--color-white);
+	/* icon styles */
+	--ag-icon-button-active-color: var(--color-white);
+	--ag-icon-button-active-background-color: var(--color-brand-secondary);
+	--ag-accent-color: var(--color-white);
 
-  /* Header text styles */
-  .ag-header-cell-label {
-    justify-content: center;
-    font-weight: bold;
-  }
+	/* Header text styles */
+	.ag-header-cell-label {
+		justify-content: center;
+		font-weight: bold;
+		font-size: 20px;
+	}
 
-  /* Style for header sorting */
-  .ag-header-cell-sorted-asc,
-  .ag-header-cell-sorted-desc {
-    --ag-header-foreground-color: var(--ag-header-text-color);
-  }
+	/* Style for header sorting */
+	.ag-header-cell-sorted-asc,
+	.ag-header-cell-sorted-desc {
+		--ag-header-foreground-color: var(--ag-header-text-color);
+	}
 
-  /* Sorting icon color */
-  .ag-icon-asc,
-  .ag-icon-desc,
-  .ag-icon-menu {
-    color: var(--ag-header-text-color);
-    filter: brightness(1);
-  }
+	/* Sorting icon color */
+	.ag-icon-asc,
+	.ag-icon-desc,
+	.ag-icon-menu {
+		color: var(--ag-header-text-color);
+		filter: brightness(1);
+	}
 
-  /* Context menu styles */
-  .ag-menu {
-    border-radius: 4px;
-    box-shadow: 0 2px 10px rgb(0 0 0 / .15);
-  }
+	/* Context menu styles */
+	.ag-menu {
+		border-radius: 4px;
+		box-shadow: 0 2px 10px rgb(0 0 0 / .15);
+	}
 
-  .ag-menu-option-active {
-    background-color: rgb(128 0 128 / .1);
-  }
+	.ag-menu-option-active {
+		background-color: rgb(128 0 128 / .1);
+	}
 
-  .ag-menu-option-text {
-    font-size: 14px;
-  }
+	.ag-menu-option-text {
+		font-size: 14px;
+	}
 
-  /* Pagination styles */
-  .ag-paging-panel {
-    padding: 10px;
-    border-top: 1px solid #eee;
-  }
+	/* Pagination styles */
+	.ag-paging-panel {
+		padding: 10px;
+		border-top: 1px solid #eee;
+	}
 
-  .ag-paging-button {
-    color: var(--color-brand-primary);
-    cursor: pointer;
-  }
+	.ag-paging-button {
+		color: var(--color-brand-primary);
+		cursor: pointer;
+	}
 
-  .ag-paging-button-disabled {
-    opacity: .5;
-    cursor: default;
-  }
+	.ag-paging-button-disabled {
+		opacity: .5;
+		cursor: default;
+	}
 
-  /* Pinned column styles */
-  .ag-pinned-left-header,
-  .ag-pinned-left-cols-container {
-    background-color: rgb(128 0 128 / .03);
-  }
+	/* Pinned column styles */
+	.ag-pinned-left-header,
+	.ag-pinned-left-cols-container {
+		background-color: rgb(128 0 128 / .03);
+	}
 
-  .ag-pinned-right-header,
-  .ag-pinned-right-cols-container {
-    background-color: rgb(128 0 128 / .03);
-  }
+	.ag-pinned-right-header,
+	.ag-pinned-right-cols-container {
+		background-color: rgb(128 0 128 / .03);
+	}
 
-  /* Checkbox styles */
-  .ag-checkbox-input-wrapper.ag-checked::after {
-    color: var(--color-brand-secondary);
-  }
+	/* Checkbox styles */
+	.ag-checkbox-input-wrapper.ag-checked::after {
+		color: var(--color-brand-secondary);
+	}
 
-  /* Data grid border adjustments */
-  .ag-cell {
-    border-right: 1px solid var(--ag-secondary-border-color);
-  }
+	/* Data grid border adjustments */
+	.ag-cell {
+		border-right: 1px solid var(--ag-secondary-border-color);
+	}
 
-  /* Filter button styles */
-  .ag-filter-toolpanel-header,
-  .ag-filter-apply-panel {
-    background-color: rgb(247 247 247);
-  }
+	/* Filter button styles */
+	.ag-filter-toolpanel-header,
+	.ag-filter-apply-panel {
+		background-color: rgb(247 247 247);
+	}
 
-  .ag-filter-apply-panel-button {
-    padding: 5px 10px;
-    border: 0;
-    border-radius: 4px;
-    color: var(--btn-primary-font-color);
-    background-color: var(--primary-color);
-    cursor: pointer;
-  }
+	.ag-filter-apply-panel-button {
+		padding: 5px 10px;
+		border: 0;
+		border-radius: 4px;
+		color: var(--btn-primary-font-color);
+		background-color: var(--primary-color);
+		cursor: pointer;
+	}
 }
 
 .ag-header-cell-text.link {
-  text-decoration: underline;
-  color: var(--ag-header-text-color);
+	text-decoration: underline;
+	color: var(--ag-header-text-color);
 }
