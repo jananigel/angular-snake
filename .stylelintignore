@@ -1,1 +1,8 @@
 src/scss/_theme.scss
+dist/
+node_modules/
+.angular/
+.tmp/
+.env/
+build/
+.git/
